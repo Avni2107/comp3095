@@ -1,4 +1,4 @@
-package main.java.ca.gbc.productservice.model;z
+package main.java.ca.gbc.productservice.model;
 
 import jdk.jfr.DataAmount;
 import lombok.AllArgsConstructor;
