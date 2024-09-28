@@ -8,6 +8,8 @@ import main.java.ca.gbc.productservice.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 
 import java.net.http.HttpHeaders;
 import java.util.List;

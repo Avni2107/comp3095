@@ -1,4 +1,4 @@
-package ca.gbc.productservice;
+package main.java.ca.gbc.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,4 +10,8 @@ public class ProductServiceApplication {
         SpringApplication.run(ProductServiceApplication.class, args);
     }
 
-}
+
+
+
+
+

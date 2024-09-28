@@ -1,5 +1,6 @@
 package main.java.ca.gbc.productservice.service;
 
+import jdk.incubator.concurrent.ScopedValue;
 import lombok.RequiredArgsConstructor;
 import main.java.ca.gbc.productservice.dto.ProductRequest;
 import main.java.ca.gbc.productservice.dto.ProductResponse;
@@ -17,6 +18,8 @@ public class ProductServiceImpl implements ProductService{
 
     private final ProductRepository productRepository;
     private final MongoTemplate mongoTemplate;
+    private String id;
+    private ScopedValue.Carrier Criteria;
 
     @Override
     public ProductResponse createProduct(ProductRequest productRequest) {
